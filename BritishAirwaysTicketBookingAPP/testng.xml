@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BritishAirwaysTest" >
+
+	
+		<!--   <test name="Android Test 1" enabled="true">	
+			<parameter name="Automation" value="real"></parameter>
+			<parameter name="PlatformName" value="android" />
+			<parameter name="PlatformVersion" value="9" />
+			<parameter name="DeviceName" value="Avon Samsung Galaxy S8" />
+			<parameter name="udid" value="ce11171bf27b483902" /> 
+			<parameter name="Application" value="Proximus App"/> 
+			<parameter name="Port" value="4723"/> 
+			<parameter name="systemPort" value="8200"/> 
+			<classes>
+	
+			 <class name="testcases.ProximusAndroid" /> 
+			</classes>
+	</test> -->
+	
+	 <test name="Android Test 2" enabled="true">	
+			<parameter name="Automation" value="cloud"></parameter>
+			<parameter name="PlatformName" value="android" />
+			<parameter name="PlatformVersion" value="10" />
+			<parameter name="DeviceName" value="Samsung_Galaxy_S9_free" />
+			<parameter name="udid" value="Samsung_Galaxy_S9_free" /> 
+			<parameter name="Application" value="British Airways"/> 
+			<parameter name="Port" value="4723"/> 
+			<parameter name="systemPort" value="8200"/> 
+			<classes>
+			 <class name="testcases.BritishAndroid" />
+			
+			</classes>
+	</test> 
+
+	
+</suite>
